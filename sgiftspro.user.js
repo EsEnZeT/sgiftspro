@@ -42,6 +42,7 @@ GM_xmlhttpRequest({
 if (!token){
     alert('Something went wrong, or this is first run. \nI will acquire token now...');
     tokenregen();
+    location.reload();
 } else {
     $('div[class="post"]:has(> div.left > div.description > div[class="contributor_only"])').hide();
     $('div[class="post fade"]').find('div.left > div.title').append('<form id="fout" method="post" action="' + $('div[class="post fade"]').find('div.left > div.title > a').attr('href') + '" style="display:inline;"><input type="hidden" value="' + token + '" name="form_key"><input type="hidden" value="0" name="enter_giveaway"><input id="fout" type="submit" value="OUT" style="width:60px;height:25px;font-size:10px;"></form>');
