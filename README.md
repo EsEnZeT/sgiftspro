@@ -30,3 +30,4 @@ Simply visit [`sgiftspro.user.js`] and accept that you want to install the exten
 ## License
 Released under the GPL license (http://www.gnu.org/copyleft/gpl.html).
 
+![githalytics.com alpha](https://cruel-carlota.pagodabox.com/2b3b6ccb37e6fcf5be390cb7aa19e5fb "githalytics.com")
